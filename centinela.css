@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: #48e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height:200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    opacity: 10;
+    padding:10px;
+    margin:auto;
+    margin-top: 30vh;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    margin: 10px;
+    width:auto;
+    height: 100px;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1::first-letter {
+    color:red;
+}
+
+button {
+    margin: auto;
+    width:80%;
+    height: 100px;
+    font-size: medium;
+}
