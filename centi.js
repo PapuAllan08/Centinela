@@ -5,7 +5,6 @@ function VerElNumero() {
     while (numero) {
         if (numero >= 40) {
             window.alert("El numero ingresado es mayor a 40")
-            break;
         } else {
             window.alert("El numero ingresado es menor a 40")
         }
